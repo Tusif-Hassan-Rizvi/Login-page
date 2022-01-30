@@ -85,7 +85,7 @@ body{
     margin-left: 41%;
     margin-bottom: 30px;
     background-color:grey;
-    animation: slide 2s ease-in-out infinite;
+    animation: slide 2s linear infinite;
 }
 
 @keyframes slide{
