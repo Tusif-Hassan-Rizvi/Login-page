@@ -80,10 +80,10 @@ body{
     font-family: 'Heebo', sans-serif;
 }
 
-.btn:hover{
+/* .btn:hover{
     color: green;
     background-color: white;
-}
+} */
 
 .slider{
     width: 10vw;

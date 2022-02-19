@@ -9,5 +9,14 @@ logbtn.addEventListener('click', () => {
     setTimeout(() => {
         slidelog.style.display = 'none';
     }, 500);
+
+    logbtn.style.backgroundColor='white';
+    logbtn.style.color='green';
+
+    setTimeout(() => {
+        logbtn.style.background='none';
+        logbtn.style.color='white';
+    }, 100);
 });
+
 
