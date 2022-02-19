@@ -13,6 +13,12 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+#slidelog{
+    width: 100vw;
+    height: 2px;
+    background-color: grey;
+    animation: slidelog 0.5s ease-in-out 1;
+}
 
 
 .container{
@@ -97,4 +103,19 @@ body{
         width: 10vw;
     }
 
+}
+
+@keyframes slidelog{
+    0%{
+        width: 0vw;
+        
+    }
+
+     100%{
+
+        width: 100vw;
+
+       }
+    
+    
 }
